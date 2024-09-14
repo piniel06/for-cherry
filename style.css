@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1{
+  margin-left: 45px;
+}
+
+.hello_page{
+  display: absolute;
+}
+
+.hello_page.active{
+  display: block;
+}
+
+.gift{
+  display: absolute;
+}
+
+.flower{
+  display: absolute;
+}
+
+.letter{
+  display: absolute;
+}
+
+#gift-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 150px;
+  height: 35px;
+  font-size: 30px;
+  color: white;
+  background-color: #FF8A8A;
+  border-radius: 35px;
+}
+
+.btn-group {
+  display: flex;                /* Flexbox for alignment */
+  justify-content: center;      /* Center align all buttons */
+  gap: 10px;                    /* Space between buttons */
+  margin-top: 50px;             /* Optional: top margin for layout */
+}
+
+.btn-group button {
+  padding: 10px 20px;           /* Button padding for size */
+  border-radius: 35px;    /* Optional: button styling */
+  background-color: #FF8A8A;    /* Optional: green background */
+  color: white;                 /* Optional: white text */
+  cursor: pointer;              /* Optional: pointer cursor on hover */           /* Optional: rounded corners */
+  font-size: 30px;              /* Font size for button text */
+}
+
+.btn-group button:hover {
+  background-color: pink;    /* Optional: change color on hover */
+}
+
+#back_btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 75px;
+  width: 150px;
+  height: 35px;
+  font-size: 30px;
+  color: white;
+  background-color: #FF8A8A;
+  border-radius: 35px;
+}
+
+#back_btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 275px;
+  width: 150px;
+  height: 35px;
+  font-size: 30px;
+  color: white;
+  background-color: #FF8A8A;
+  border-radius: 35px;
+}
+
+.gift-img{
+  margin-left: 80px;
+}
+
+.h2{
+  margin-left: 80px;
+}
+
+.ily-img{
+  margin-left: 175px;
+}
+
+
+.hidden{
+  display: none;
+}
+
